@@ -1,0 +1,34 @@
+$w: 100%;
+
+.accessorials {
+  border-radius: 2rem;
+  .h-accessorials {
+    text-align: center;
+    & h3 {
+      color: #4f505b;
+    }
+  }
+  .checkbox-text {
+    margin-left: 2rem;
+  }
+}
+
+.box-select-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2rem;
+  .select-list {
+    display: flex;
+    flex-direction: row;
+    line-height: 5px;
+    h4 {
+      margin-left: 10px;
+      color: green;
+    }
+  }
+}
+
+.accessorials-main {
+  margin: 30px;
+}

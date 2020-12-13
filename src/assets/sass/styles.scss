@@ -1,0 +1,23 @@
+$size: 100%;
+
+html {
+  height: $size;
+  body {
+    position: relative;
+    background-color: #eee;
+    .container {
+      display: flex;
+      flex-direction: column;
+      margin: 2rem;
+    }
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+@import "components/commodity";
+@import "components/accessorials";
+@import "components/pickup-delivery";
+@import "components/delivery";
+@import "components/pickup";

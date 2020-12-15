@@ -1,13 +1,13 @@
 <template>
   <transition name="modal-fade">
-    <div class="modal-backdrop">
+    <div class="modal-commodity-backdrop">
       <div
-        class="modal"
+        class="modal-commodity"
         role="dialog"
         aria-labelledby="modalTitle"
         aria-describedby="modalDescription"
       >
-        <header class="modal-header" id="modalTitle">
+        <header class="modal-commodity-header" id="modalTitle">
           <slot name="header">
             <h2>Agregar Datos</h2>
 
@@ -21,7 +21,7 @@
             </button>
           </slot>
         </header>
-        <section class="modal-body" id="modalDescription">
+        <section class="modal-modal-commodity-body" id="modalDescription">
           <slot name="body">
             <form @submit.prevent="onSubmit">
               <label for="hu_count">hu_count:</label>
@@ -69,7 +69,7 @@
             </form>
           </slot>
         </section>
-        <footer class="modal-footer">
+        <footer class="modal-modal-commodity-footer">
           <slot name="footer">
             <p>&copy;Guane Todos los Derechos Reservados</p>
           </slot>
@@ -84,7 +84,7 @@ export default {
   name: "modal",
 
   props: {
-    commodity: String,
+    commodity: { type: String },
   },
   data() {
     return {

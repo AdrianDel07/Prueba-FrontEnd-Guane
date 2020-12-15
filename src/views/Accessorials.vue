@@ -1,8 +1,8 @@
 <template>
-  <div class="container">
+  <div class="container-box">
     <div class="accessorials shadow">
       <header class="h-accessorials">
-        <h3><i class="fas fa-puzzle-piece"></i> Accessorials</h3>
+        <h4><i class="fas fa-puzzle-piece"></i> Accessorials</h4>
         <div class="line" />
       </header>
       <main class="accessorials-main">
@@ -20,9 +20,9 @@
         <div class="box-select-list">
           <p>Haz Seleccionado:</p>
           <div class="select-list">
-            <h4 v-for="select in selected" :key="select">
+            <h6 v-for="select in selected" :key="select">
               {{ select }}
-            </h4>
+            </h6>
           </div>
         </div>
       </main>
@@ -47,7 +47,7 @@ export default {
       api.getHauls().then((res) => {
         let h = null;
         for (let r in res) {
-          h = res[r]["accessorials_to"];
+          h = res[r]["accessorials"];
         }
         this.accessorials = h;
       });

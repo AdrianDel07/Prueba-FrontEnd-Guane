@@ -4,8 +4,11 @@ $w-5: 50%;
   border-radius: 2rem;
   width: $w-5;
   margin-left: 1rem;
-  h3 {
+  h4 {
     color: rgba(85, 255, 42, 0.753);
+    font-weight: 600;
+    font-size: 20px;
+    margin: 1rem;
   }
 }
 @media screen and (max-width: 780px) {

@@ -1,6 +1,6 @@
 # prueba-guane
 
-Prueba FrontEnd consumir API con Vuejs, Sass
+Prueba FrontEnd consumir API con Vuejs, Sass.
 
 ## Project setup
 

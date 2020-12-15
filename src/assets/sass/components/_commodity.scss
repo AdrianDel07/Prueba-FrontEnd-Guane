@@ -3,6 +3,7 @@ $size: 100%;
 // Header and Buttons
 .h-commodity {
   background-color: rgba(2, 10, 124, 0.2);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15) !important;
   border-radius: 1rem 1rem 0 0;
   display: flex;
   flex-direction: row;
@@ -16,33 +17,6 @@ $size: 100%;
       &:hover {
         color: #eeee;
       }
-    }
-  }
-}
-
-// Table
-main {
-  .table-responsive {
-    overflow-x: auto;
-  }
-  table {
-    border-bottom: 2px solid black;
-    width: $size;
-    q tr {
-      border: none;
-
-      margin: 2rem;
-    }
-    tr:nth-child(even) {
-      background-color: #f2f2f2;
-    }
-    th {
-      background-color: #4caf50;
-      color: white;
-    }
-    td {
-      text-align: center;
-      border-bottom: 1px solid #eeee;
     }
   }
 }

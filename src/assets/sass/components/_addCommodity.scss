@@ -1,4 +1,4 @@
-.modal-backdrop {
+.modal-commodity-backdrop {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.modal {
+.modal-commodity {
   background: #ffffff;
   box-shadow: 2px 2px 20px 1px;
   border-radius: 1rem;
@@ -20,26 +20,26 @@
   padding: 0 2rem 0 2rem;
 }
 
-.modal-header,
-.modal-footer {
+.modal-commodity-header,
+.modal-commodity-footer {
   padding: 15px;
   display: flex;
   align-items: center;
 }
 
-.modal-header {
+.modal-commodity-header {
   border-bottom: 1px solid #eeeeee;
   color: #4aae9b;
   justify-content: space-between;
   font-weight: 900;
 }
 
-.modal-footer {
+.modal-commodity-footer {
   border-top: 1px solid #eeeeee;
   justify-content: center;
 }
 
-.modal-body,
+.modal-commodity-body,
 form {
   position: relative;
   padding: 20px 10px;

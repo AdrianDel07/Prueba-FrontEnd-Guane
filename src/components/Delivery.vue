@@ -1,7 +1,7 @@
 <template>
   <div class="delivery shadow">
     <header class="text-header">
-      <h3><i class="fas fa-truck"></i> Delivery</h3>
+      <h4><i class="fas fa-truck"></i> Delivery</h4>
       <div class="line" />
     </header>
     <main class="accessorials-main">

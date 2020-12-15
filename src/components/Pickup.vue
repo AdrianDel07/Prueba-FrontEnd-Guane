@@ -1,7 +1,7 @@
 <template>
   <div class="pickup shadow">
     <header class="text-header">
-      <h3><i class="fas fa-map-marker-alt"></i> Pickup</h3>
+      <h4><i class="fas fa-map-marker-alt"></i> Pickup</h4>
       <div class="line" />
     </header>
     <main class="accessorials-main">

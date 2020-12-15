@@ -7,16 +7,16 @@
 </template>
 
 <script>
-import Accessorials from "@/components/Accessorials.vue";
-import Commodity from "@/components/Commodity.vue";
-import PickupDelivery from "@/components/Pickup_Delivery.vue";
+import Accessorials from "@/views/Accessorials.vue";
+import PickupDelivery from "@/views/Pickup_Delivery.vue";
+import Commodity from "./views/Commodity.vue";
 
 export default {
   name: "App",
   components: {
-    Commodity,
     Accessorials,
     PickupDelivery,
+    Commodity,
   },
 };
 </script>

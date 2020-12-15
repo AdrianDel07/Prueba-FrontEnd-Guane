@@ -32,3 +32,15 @@ $w: 100%;
 .accessorials-main {
   margin: 30px;
 }
+
+@media screen and (max-width: 780px) {
+  .box-select-list {
+    p {
+      text-align: center;
+    }
+    flex-direction: column;
+    .select-list {
+      flex-direction: column;
+    }
+  }
+}

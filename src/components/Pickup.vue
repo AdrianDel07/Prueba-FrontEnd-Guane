@@ -1,11 +1,11 @@
 <template>
   <div class="pickup shadow">
     <header class="text-header">
-      <h3>Pickup</h3>
+      <h3><i class="fas fa-map-marker-alt"></i> Pickup</h3>
       <div class="line" />
     </header>
     <main class="accessorials-main">
-      <div>
+      <div class="box-input">
         <input class="input-1" type="text" placeholder="Zip From" />
         <input class="input-2" type="text" placeholder="City From" />
       </div>

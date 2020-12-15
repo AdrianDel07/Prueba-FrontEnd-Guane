@@ -4,4 +4,14 @@ $w-5: 50%;
   border-radius: 2rem;
   width: $w-5;
   margin-left: 1rem;
+  h3 {
+    color: rgba(85, 255, 42, 0.753);
+  }
+}
+@media screen and (max-width: 780px) {
+  .delivery {
+    width: auto;
+    margin: 0;
+    margin-top: 1rem;
+  }
 }

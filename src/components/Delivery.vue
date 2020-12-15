@@ -1,11 +1,11 @@
 <template>
   <div class="delivery shadow">
     <header class="text-header">
-      <h3>Delivery</h3>
+      <h3><i class="fas fa-truck"></i> Delivery</h3>
       <div class="line" />
     </header>
     <main class="accessorials-main">
-      <div>
+      <div class="box-input">
         <input class="input-1" type="text" placeholder="Zip to" />
         <input class="input-2" type="text" placeholder="City to" />
       </div>

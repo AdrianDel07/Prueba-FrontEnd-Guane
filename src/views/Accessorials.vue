@@ -2,7 +2,7 @@
   <div class="container">
     <div class="accessorials shadow">
       <header class="h-accessorials">
-        <h3>Accessorials</h3>
+        <h3><i class="fas fa-puzzle-piece"></i> Accessorials</h3>
         <div class="line" />
       </header>
       <main class="accessorials-main">
